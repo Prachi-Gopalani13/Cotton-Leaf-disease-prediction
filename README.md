@@ -13,12 +13,11 @@ By default, it loads weights pre-trained on ImageNet. Each Keras Application exp
 #### 2. ResNet152V2 
 Optionally loads weights pre-trained on ImageNet. Note that the data format convention used by the model is the one specified in your Keras config at ~/.keras/keras.json.
 Each Keras Application expects a specific kind of input preprocessing. For ResNetV2, call tf.keras.applications.resnet_v2.preprocess_input on your inputs before passing them to the model.
-![](screenshots/resnet15.JPG)
+![](screenshots/resnet152v2.JPG)
 
 #### 3. Inception v3
 Optionally loads weights pre-trained on ImageNet. Note that the data format convention used by the model is the one specified in the tf.keras.backend.image_data_format().
 Each Keras Application expects a specific kind of input preprocessing. For InceptionV3, call tf.keras.applications.inception_v3.preprocess_input on your inputs before passing them to the model.
-##### Model Ac
 ![](screenshots/inceptionv3.JPG)
 
 ### Modelling Measures
