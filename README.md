@@ -23,7 +23,7 @@ Each Keras Application expects a specific kind of input preprocessing. For Incep
 ### Modelling Measures
 Following parameters are used for measuring:
 optimizer = 'adam',
-loss = 'binary_crossentropy', 
+loss = 'categorical_crossentropy', 
 metrics = 'accuracy'
 
 
